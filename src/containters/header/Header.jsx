@@ -1,9 +1,9 @@
 import React from 'react';
 import './header.css';
-import { BackGround } from './imports';
+import { BackGround,BackGround1 } from './imports';
 
 const Header = () => (
-  <div className="magazine__header section__padding" id="home" style={{ backgroundImage: `url(${BackGround})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+  <div className="magazine__header section__padding" id="home" style={{ backgroundImage: `url(${BackGround1})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
     <div className="magazine__header-content" style={{ padding: '13rem' }}> {/* Added padding */}
       <h1 className="gradient__text">Dive into the World of Magazines:</h1>
       <h1 className="gradient__text"> A Realm of Stories and Creativity Awaits!</h1>
